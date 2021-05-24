@@ -1,0 +1,15 @@
+audio {
+  display: none;
+}
+.Music {
+  padding: 40px;
+  display: grid;
+  place-items: center;
+}
+.Music__amogus {
+  cursor: pointer;
+  max-height: 300px;
+}
+.Music__amogus:hover {
+  opacity: 0.6;
+}
