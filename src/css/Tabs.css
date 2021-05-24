@@ -5,6 +5,8 @@ ul.Tabs__nav {
   display: flex;
   justify-content: center;
   list-style: none;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
 }
 li.Tabs__nav-link {
   font-size: 24px;
@@ -16,4 +18,10 @@ li.Tabs__nav-link {
 }
 li.Tabs__nav-link:hover {
   opacity: 0.6;
+}
+div.Tabs__tab {
+  padding: 10px;
+}
+div.Tabs__tab img {
+  max-width: 100%;
 }

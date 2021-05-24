@@ -12,13 +12,13 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <Main></Main>
+            <Main />
           </Route>
           <Route path="/tabs">
-            <Tabs></Tabs>
+            <Tabs />
           </Route>
           <Route path="/music">
-            <Music></Music>
+            <Music />
           </Route>
         </Switch>
         <Footer />

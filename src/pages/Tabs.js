@@ -15,10 +15,8 @@ function Tabs() {
           3
         </li>
       </ul>
-
-      <p>Страница: {page}</p>
-
       <div className="Tabs__tab">
+        <p>Страница: {page}</p>
         {page === 1 ? (
           <div className="Tabs__tab1">
             <p>

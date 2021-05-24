@@ -14,26 +14,47 @@ html {
 
 nav.bochaperNav {
   display: flex;
+  flex-wrap: wrap;
   align-items: center;
   width: 100%;
   padding: 10px 40px;
   border-bottom: 2px solid #333;
 }
-.bochaperNav__logo {
-  max-height: 60px;
+.bochaperNav__logo-container {
+  display: flex;
+  align-items: center;
   margin-right: auto;
 }
+.bochaperNav__logo {
+  max-height: 60px;
+}
 a.bochaperNav__link {
+  display: block;
   font-size: 18px;
   font-weight: 600;
   padding: 20px 30px;
-  margin-left: 10px;
+  margin: 10px;
   text-decoration: none;
-  color: #333;
   border: 2px solid #333;
+  background: #333;
+  color: #fff;
+  transition: 300ms;
 }
+a.bochaperNav__link:hover {
+  background: #fff;
+  color: #333;
+}
+
 div.Tabs__tab {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+@media (max-width: 690px) {
+  nav.bochaperNav {
+    flex-direction: column;
+  }
+  a.bochaperNav__link {
+    width: 100%;
+  }
+} ;

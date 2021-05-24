@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <header>
       <nav className="bochaperNav">
-        <img className="bochaperNav__logo" src={logo} alt="alexey" />
+        <div className="bochaperNav__logo-container">
+          <img className="bochaperNav__logo" src={logo} alt="alexey" /> Bochaper
+        </div>
         <Link className="bochaperNav__link" to="/">
           Главная
         </Link>

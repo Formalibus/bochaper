@@ -9,13 +9,14 @@ footer.footer {
 div.footer__body {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 ul.footer__list {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   list-style: none;
 }
 li.footer__list-item {

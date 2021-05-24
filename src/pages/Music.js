@@ -5,6 +5,7 @@ function Music() {
   const [muz, setMuz] = useState(false);
   return (
     <div className="Music">
+      <p>Ножми на меня</p>
       <img
         className="Music__amogus"
         onClick={() => setMuz(!muz)}
