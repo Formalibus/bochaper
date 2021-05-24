@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/bochaper/static/css/main.b7e5561f.chunk.css",
+    "main.js": "/bochaper/static/js/main.fb35ea93.chunk.js",
+    "main.js.map": "/bochaper/static/js/main.fb35ea93.chunk.js.map",
+    "runtime-main.js": "/bochaper/static/js/runtime-main.16cea9be.js",
+    "runtime-main.js.map": "/bochaper/static/js/runtime-main.16cea9be.js.map",
+    "static/js/2.c6184f64.chunk.js": "/bochaper/static/js/2.c6184f64.chunk.js",
+    "static/js/2.c6184f64.chunk.js.map": "/bochaper/static/js/2.c6184f64.chunk.js.map",
+    "index.html": "/bochaper/index.html",
+    "static/css/main.b7e5561f.chunk.css.map": "/bochaper/static/css/main.b7e5561f.chunk.css.map",
+    "static/js/2.c6184f64.chunk.js.LICENSE.txt": "/bochaper/static/js/2.c6184f64.chunk.js.LICENSE.txt",
+    "static/media/amogus.7e33335d.mp3": "/bochaper/static/media/amogus.7e33335d.mp3",
+    "static/media/logo.6ce24c58.svg": "/bochaper/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.16cea9be.js",
+    "static/js/2.c6184f64.chunk.js",
+    "static/css/main.b7e5561f.chunk.css",
+    "static/js/main.fb35ea93.chunk.js"
+  ]
+}
